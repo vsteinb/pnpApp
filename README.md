@@ -1,2 +1,2 @@
 # pnpApp
-An Ionic-React App for accessing the website
+An Ionic-React App for typing... But who will read it?
