@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Daemonisch';
+	src: local('Daemonisch'), url(../fonts/Daemonisch-Bold/Daemonisch-Bold.otf) format('opentype'),
+			 local('Daemonisch'), url(../fonts/Daemonisch-Bold/Daemonisch-Bold.svg) format('svg');
+}
+
+@font-face {
+  font-family: 'Finger Paint';
+	src: local('Daemonisch'), url(../fonts/Finger_Paint/FingerPaint-Regular.ttf) format('truetype');
+}
+
+#root {
+	--ion-toolbar-background: orangered;
+}
+ion-content {
+	--ion-text-color: black;
+	--padding-top: 4em;
+	--padding-bottom: 4em;
+
+	--ion-background-color: rgba(0, 0, 0, 0);
+	--background: url(../img/hell-bg.jpg) no-repeat left top;
+	background-size: cover;
+}
+
+textarea#demon-text {
+	display: block;
+	width: 80%;
+	height: 100%;
+	border-radius: 10px;
+
+	margin: 0 auto;
+	padding: 1em;
+	font-family: 'Daemonisch', "sans-serif";
+	font-size: 1.2rem;
+	opacity: .7;
+}
+
+ion-title {
+	font-family: 'Finger Paint', cursive;
+	text-transform: uppercase;
+	font-size: large;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "pnpApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
